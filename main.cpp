@@ -74,7 +74,7 @@ int main() {
 			{
 				'X',
 				Rule {
-					.replace = "F−[[X]+X]+F[+FX]−X",
+					.replace = "F-[[X]+X]+F[+FX]-X",
 					.action = Xforward
 				}
 			},
