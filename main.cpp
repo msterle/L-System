@@ -6,14 +6,13 @@ using namespace std;
 
 // generic
 
-struct Rule {
-	string replace;
-	void (*action)();
-};
-
-typedef unordered_map<char, Rule> Grammar;
-
 class LSystem {
+public:
+	struct Rule {
+		string replace;
+		void (*action)();
+	};
+	typedef unordered_map<char, Rule> Grammar;
 protected:
 	Grammar grammar;
 	string axiom;
@@ -69,18 +68,18 @@ int main() {
 	
 	LSystem wikitree(
 		"X",
-		Grammar {
+		LSystem::Grammar {
 			// variables
 			{
 				'X',
-				Rule {
+				LSystem::Rule {
 					.replace = "F-[[X]+X]+F[+FX]-X",
 					.action = Xforward
 				}
 			},
 			{
 				'F',
-				Rule {
+				LSystem::Rule {
 					.replace = "FF",
 					.action = Xnoop
 				}
@@ -88,28 +87,28 @@ int main() {
 			// constants
 			{
 				'+',
-				Rule {
+				LSystem::Rule {
 					.replace = "+",
 					.action = Xleft
 				}
 			},
 			{
 				'-',
-				Rule {
+				LSystem::Rule {
 					.replace = "-",
 					.action = Xright
 				}
 			},
 			{
 				'[',
-				Rule {
+				LSystem::Rule {
 					.replace = "[",
 					.action = Xpush
 				}
 			},
 			{
 				']',
-				Rule {
+				LSystem::Rule {
 					.replace = "]",
 					.action = Xpop
 				}
