@@ -8,7 +8,7 @@ A generic L-System implementation in C++. Example code includes a simple tree/sh
 
 Sample Output
 -------------
-
+```
 Seed
 ----
 X
@@ -28,6 +28,6 @@ FFFF[[FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+F
 n = 4
 ----
 FFFFFFFF[[FFFF[[FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]+FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]+FFFF[+FFFFFF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]+FFFF[[FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]+FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]+FFFF[+FFFFFF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]+FFFFFFFF[+FFFFFFFFFFFF[[FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]+FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]+FFFF[+FFFFFF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]FFFF[[FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]+FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]+FFFF[+FFFFFF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X]FF[[F−[[X]+X]+F[+FX]−X]+F−[[X]+X]+F[+FX]−X]+FF[+FFF−[[X]+X]+F[+FX]−X]F−[[X]+X]+F[+FX]−X
-
+```
 References
 ----------
