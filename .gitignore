@@ -1,0 +1,7 @@
+# files with no extensions (binaries)
+*
+!/**/
+!*.*
+!Makefile
+
+*.sublime-*
