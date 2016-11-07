@@ -17,15 +17,15 @@ typedef unordered_map<char, Rule> Grammar;
 
 class LSystem {
 protected:
-	Grammar* grammar;
+	Grammar grammar;
 	string axiom;
 	string value;
 public:
-	LSystem(string axiom, Grammar* grammar) : grammar(grammar), axiom(axiom), value(axiom) { }
+	LSystem(string axiom, Grammar grammar) : grammar(grammar), axiom(axiom), value(axiom) { }
 	void iterate() {
 		string newValue;
 		for(string::iterator it = value.begin(); it != value.end(); ++it)
-			newValue += (*grammar)[*it].replace;
+			newValue += grammar[*it].replace;
 		value = newValue;
 	}
 	void iterate(int n) {
@@ -71,7 +71,7 @@ int main() {
 	
 	LSystem wikitree(
 		"X",
-		new Grammar {
+		Grammar {
 			// variables
 			{
 				'X',
