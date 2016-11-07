@@ -6,8 +6,6 @@ using namespace std;
 
 // generic
 
-typedef void (Action) ();
-
 struct Rule {
 	string replace;
 	void (*action)();
