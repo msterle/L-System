@@ -9,11 +9,11 @@ A generic L-System implementation in C++. Example code includes a simple tree/sh
 Sample Output
 -------------
 
-With 
-variables : X F
-constants : + - [ ]
-start  : X
-rules  : (X → F-[[X]+X]+F[+FX]-X), (F → FF)
+Parameters:
+* variables : X F
+* constants : + - [ ]
+* start  : X
+* rules  : (X → F-[[X]+X]+F[+FX]-X), (F → FF)
 
 ```
 Seed
